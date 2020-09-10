@@ -4,7 +4,7 @@ data:
     giteeToken: "stored in secrets and will be injected via environment"
     webhookSecret: "stored in secrets and will be injected via environment"
     databaseType: "mysql"
-    databaseHost: "172.16.1.74"
+    databaseHost: "172.16.1.73"
     databasePort: 3306
     databaseName: "cibot"
     databaseUserName: "stored in secrets and will be injected via environment"
