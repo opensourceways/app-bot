@@ -40,6 +40,12 @@ data:
         watchOwnerFilePath: sig/*/OWNERS
         watchOwnerFileRef: master
     watchOwnerFileDuration: 3600
+    watchFrozenFile:
+      - frozenFileOwner: ci-bot
+        frozenFileRepo: release-management
+        frozenFilePath: release-management.yaml
+        frozenFileRef: master
+    watchFrozenDuration: 120
     botName: openeuler-ci-bot
     communityName: openEuler
     claLink: https://openeuler.org/en/other/cla/
@@ -52,6 +58,7 @@ data:
     tmpservicefile: _service
     tmpservicepath: master/openEuler:Factory/#projectname#/_service
     guideurl: https://gitee.com/openeuler/community/tree/master/zh/contributors
+    autoDetectCla: false
   gitee_oauth2_client_code: "stored in secrets and will be injected via environment"
   gitee_oauth2_secret: "stored in secrets and will be injected via environment"
 kind: ConfigMap
