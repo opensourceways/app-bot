@@ -41,7 +41,7 @@ data:
         watchOwnerFileRef: master
     watchOwnerFileDuration: 3600
     watchFrozenFile:
-      - frozenFileOwner: ci-bot
+      - frozenFileOwner: openeuler
         frozenFileRepo: release-management
         frozenFilePath: release-management.yaml
         frozenFileRef: master
